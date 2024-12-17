@@ -1,0 +1,84 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ContagemPalavras",
+            "request": "launch",
+            "mainClass": "desafios_map.pesquisa.op2.ContagemPalavras",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "EstoqueProdutos",
+            "request": "launch",
+            "mainClass": "desafios_map.pesquisa.op1.EstoqueProdutos",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "Dicionario",
+            "request": "launch",
+            "mainClass": "desafios_map.operacoes_basicas.op2.Dicionario",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefas",
+            "request": "launch",
+            "mainClass": "desafios_list.operacoes_basicas.op1.ListaTarefas",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "CarrinhoDeCompras",
+            "request": "launch",
+            "mainClass": "desafios_list.operacoes_basicas.op2.CarrinhoDeCompras",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoPessoas",
+            "request": "launch",
+            "mainClass": "desafios_list.ordenacao.op1.OrdenacaoPessoas",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoNumeros",
+            "request": "launch",
+            "mainClass": "desafios_list.ordenacao.op2.OrdenacaoNumeros",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "desafios_list.pesquisa.op1.CatalogoLivros",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "SomaNumeros",
+            "request": "launch",
+            "mainClass": "desafios_list.pesquisa.op2.SomaNumeros",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "desafios_map.operacoes_basicas.op1.AgendaContatos",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        }
+    ]
+}
