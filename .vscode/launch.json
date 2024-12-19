@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AgendaEventos",
+            "request": "launch",
+            "mainClass": "desafios_map.ordenacao.op1.AgendaEventos",
+            "projectName": "EstruturaDeDadosEmJava_e1b489e9"
+        },
+        {
+            "type": "java",
             "name": "ContagemPalavras",
             "request": "launch",
             "mainClass": "desafios_map.pesquisa.op2.ContagemPalavras",
