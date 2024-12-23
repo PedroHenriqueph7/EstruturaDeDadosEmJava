@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LivrariaOnline",
+            "request": "launch",
+            "mainClass": "desafios_map.ordenacao.op2.LivrariaOnline",
+            "projectName": "EstruturaDeDadosEmJava_da82fc8b"
+        },
+        {
+            "type": "java",
             "name": "AgendaEventos",
             "request": "launch",
             "mainClass": "desafios_map.ordenacao.op1.AgendaEventos",
