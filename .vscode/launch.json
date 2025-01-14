@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "desafios_set.pesquisa.op1.AgendaContatos",
+            "projectName": "EstruturaDeDadosEmJava_280b79c3"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoPalavrasUnicas",
+            "request": "launch",
+            "mainClass": "desafios_set.operacoes_basicas.op2.ConjuntoPalavrasUnicas",
+            "projectName": "EstruturaDeDadosEmJava_280b79c3"
+        },
+        {
+            "type": "java",
             "name": "LivrariaOnline",
             "request": "launch",
             "mainClass": "desafios_map.ordenacao.op2.LivrariaOnline",

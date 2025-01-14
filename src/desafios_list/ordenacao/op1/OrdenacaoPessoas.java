@@ -25,7 +25,6 @@ public class OrdenacaoPessoas {
             throw new Exception("A lista esta vazia!!");
         }
         
-
     }
 
     public List<Pessoa> ordenarPorAltura() throws Exception{
