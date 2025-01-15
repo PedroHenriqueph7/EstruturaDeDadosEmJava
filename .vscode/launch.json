@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CadastroProdutos",
+            "request": "launch",
+            "mainClass": "desafios_set.ordenacao.op1.CadastroProdutos",
+            "projectName": "EstruturaDeDadosEmJava_280b79c3"
+        },
+        {
+            "type": "java",
             "name": "ListaTarefas",
             "request": "launch",
             "mainClass": "desafios_set.pesquisa.op2.ListaTarefas",

@@ -24,12 +24,20 @@ public class ListaTarefas {
     public void removerTarefa(String descricao) throws Exception{
         if (!listaDeTarefas.isEmpty()) {
             Set<Tarefa> tarefaParaRemover = new HashSet<>();
+            boolean tarefaEncontrada = false;
             for (Tarefa t : listaDeTarefas) {
                 if (t.getDescricao().equalsIgnoreCase(descricao)) {
                     tarefaParaRemover.add(t);
+                    tarefaEncontrada = true;
                 }
             }
-            listaDeTarefas.removeAll(tarefaParaRemover);
+            if (tarefaEncontrada == true) {
+                listaDeTarefas.removeAll(tarefaParaRemover);
+                System.out.println("Remoção efetuada!");
+            } else {
+                System.out.println("Tarefa não encontrada!");
+            }
+       
         } else {
             throw new Exception("Lista de Tarefas vazia!!");
         }
