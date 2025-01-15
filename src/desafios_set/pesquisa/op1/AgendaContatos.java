@@ -1,11 +1,5 @@
 package desafios_set.pesquisa.op1;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -15,7 +9,7 @@ public class AgendaContatos {
     Set<Contato> agendaContatos;
 
     public AgendaContatos(){
-        agendaContatos = new HashSet<>();
+        agendaContatos = new TreeSet<>();
     }
 
     public void adicionarContato(String nome, String numeroTelefone){
@@ -25,10 +19,8 @@ public class AgendaContatos {
 
     public void exibirContatos(){
         if (!agendaContatos.isEmpty()) {
-            List<Contato> agendaOrdenada = new ArrayList<>(agendaContatos);
             System.out.println("Lista de Contatos: ");
-                Collections.sort(agendaOrdenada);
-            for (Contato c : agendaOrdenada) {
+            for (Contato c : agendaContatos) {
                 System.out.println(c);
             }
         } else {
