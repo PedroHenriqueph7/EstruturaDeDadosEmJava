@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CadastroAlunos",
+            "request": "launch",
+            "mainClass": "desafios_set.ordenacao.op2.CadastroAlunos",
+            "projectName": "EstruturaDeDadosEmJava_280b79c3"
+        },
+        {
+            "type": "java",
             "name": "CadastroProdutos",
             "request": "launch",
             "mainClass": "desafios_set.ordenacao.op1.CadastroProdutos",
