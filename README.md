@@ -1,18 +1,41 @@
-## Getting Started
+# Trabalhando com Collections em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Estudando em busca de solidificar este conhecimento.
 
-## Folder Structure
+## 📌 Sobre o Repositório
+Este repositório contém exemplos e práticas utilizando **Collections** em Java, explorando operações básicas, pesquisa e ordenação de dados com as principais interfaces da linguagem:
 
-The workspace contains two folders by default, where:
+- **List**: Trabalhando com listas ordenadas e indexadas.
+- **Set**: Conjuntos sem elementos duplicados.
+- **Map**: Estrutura de chave-valor para mapeamento eficiente.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Conteúdo
+### 🔹 List
+- Operações básicas: adição, remoção e iteração.
+- Ordenação com `Collections.sort()` e `Comparator`.
+- Pesquisa de elementos dentro da lista.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 🔹 Set
+- Uso do `HashSet`, `LinkedHashSet` e `TreeSet`.
+- Comparação entre os tipos de `Set`.
+- Aplicação de ordenação com `TreeSet`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🔹 Map
+- Implementação com `HashMap`, `LinkedHashMap` e `TreeMap`.
+- Métodos para inserção, remoção e busca de elementos.
+- Ordenação por chaves e valores.
 
-## Dependency Management
+## 💻 Tecnologias Utilizadas
+- Java 21+
+- VS Code
+- JDK e Maven (opcional)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📚 Referências
+- [Documentação Oficial do Java Collections](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collections.html)
+- [Guia de Collections em Java](https://www.baeldung.com/java-collections)
+
+---
+
+✍️ **Autor:** Pedro Henrique  
+📅 **Última atualização:** Março/2025
+
